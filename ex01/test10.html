@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>ISO Dates</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        var date1 = new Date(); // 현재 날짜 및 시간
+        var date2 = new Date(1991,11,25,3,50); // 1991년 12월 25일 3:50:00 (월 +1 주의)
+        var date3 = new Date('2014-6-4'); // 2002년 1월 1일 09:00:00
+        var date4 = new Date('2012-05-17 10:20:30'); // 2012년 5월 17일 10:20:30
+        document.getElementById("demo").innerHTML = date1
+    </script>
+
+</body>
+</html>
